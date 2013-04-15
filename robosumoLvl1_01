@@ -1,0 +1,20 @@
+#Robo sumo around the can
+#Nathaniel Hodges
+>>> from myro import*
+>>> init(COM'number'")
+>>> while(not getstall()):
+	x=getobstacle("left")
+	y= getObstacle("right")
+	if(x>20):
+		motors(-0.25,-0.5)
+	elif(y>20)
+		motor(-0.5,-0.25)
+	elif(getObstacle("center")>900 and(x<200):
+		turnRight(.75,5)
+	elif(getObstacle("center")>900 and(y<200):
+		turnLeft(.75,5)
+	else:
+		motors(-0.5,-0.5)
+
+#I have revised the program several times and this is one form
+# the more I try to tune to program for precision the more errors arise.
