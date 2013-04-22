@@ -1,0 +1,15 @@
+def roboSumoLvl1():
+	x=getIR("left")
+	y=getIR("right")
+	while(getLine()==1):
+		if(x==1 and y ==0):
+			motors(0.25,1)
+		elif(y==1 and x==0):
+			motors(1,0.25)
+		elif(sum(y,z)==2)
+			motors(1,1)
+		else:
+		turnLeft(1)
+		
+	while(getLine()=0):
+		backward(1,1)
